@@ -28,7 +28,7 @@ function App() {
     }
   };
 
-  // pick file from devic
+  // pick file from device
   const onPick = (e) => {
     const f = e.target.files?.[0];
     if (!f) return;
